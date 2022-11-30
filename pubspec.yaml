@@ -1,0 +1,24 @@
+name: temaki_flutter
+description: Temaki icon set for Flutter
+version: 1.0.0
+
+environment:
+  sdk: '>=2.18.2 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  lints: ^2.0.0
+  build_runner: ^2.3.2
+  build: ^2.3.1
+  recase: ^4.1.0
+  dart_style: ^2.2.4
+  code_builder: ^4.3.0
+
+flutter:
+  fonts:
+    - family: TemakiIconFont
+      fonts:
+        - asset: lib/fonts/temaki_flutter.ttf

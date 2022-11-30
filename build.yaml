@@ -1,0 +1,13 @@
+targets:
+  $default:
+    builders:
+      temaki_flutter|icon_class_builder:
+        enabled: true
+
+builders:
+  icon_class_builder:
+    import: "builder/icon_class_generator.dart"
+    builder_factories: [ "iconSetBuilder" ]
+    build_extensions: { ".json": [".dart"] }
+    build_to: source
+    auto_apply: root_package
