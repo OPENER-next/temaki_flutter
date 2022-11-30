@@ -1,0 +1,72 @@
+name: Build icon-font from temaki SVG icon files
+
+on:
+  # Allow running this workflow manually from the Actions tab.
+  workflow_dispatch:
+
+env:
+  TEMAKI_VERSION_TAG: 'v5.2.0'
+
+# Allow only one concurrent build and deployment workflow
+concurrency:
+  group: "build"
+  cancel-in-progress: true
+
+jobs:
+  build_icon_font:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Temaki repository
+      uses: actions/checkout@v3
+      with:
+        repository: ideditor/temaki
+        ref: ${{ env.TEMAKI_VERSION_TAG }}
+        path: temaki
+
+    - name: Setup NodeJS
+      uses: actions/setup-node@v3
+
+    - name: Install Fantasticon - icon-font generation package
+      run: npm install -g fantasticon
+
+    - name: Generate icon-font
+      run: >-
+        fantasticon temaki/icons
+        --output .
+        --name temaki_flutter
+        --font-types ttf
+        --asset-types json
+        --normalize
+
+    - name: Checkout temaki_flutter repository
+      uses: actions/checkout@v3
+      with:
+        path: temaki_flutter
+
+    - name: Create required directories (if missing)
+      run: mkdir -p temaki_flutter/lib/fonts;
+
+    - name: Move font to repository
+      run: mv -f temaki_flutter.ttf temaki_flutter/lib/fonts
+
+    - name: Move json to repository
+      run: mv -f temaki_flutter.json temaki_flutter/lib
+
+    - name: Setup Flutter SDK
+      uses: subosito/flutter-action@v2.8.0
+      
+    - name: Get pub dependencies
+      working-directory: temaki_flutter
+      run: flutter pub get
+
+    - name: Generate Flutter icon class file
+      working-directory: temaki_flutter
+      run: dart run build_runner build --delete-conflicting-outputs
+
+    - name: Add & Commit to repository
+      uses: EndBug/add-and-commit@v9.1.1
+      with:
+        cwd: temaki_flutter
+        add: lib/fonts/temaki_flutter.ttf lib/temaki_flutter.dart
+        message: 'Update icon font and icon class'
