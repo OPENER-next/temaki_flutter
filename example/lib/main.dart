@@ -61,6 +61,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     Expanded(
                       child: Icon(
                         _classMirror.invokeGetter(_icons[index]) as IconData,
+                        size: 45,
                       ),
                     ),
                     Text(_icons[index]),
