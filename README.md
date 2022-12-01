@@ -3,6 +3,8 @@
 This package brings the fabulous [Temaki icon set](https://github.com/ideditor/temaki) to Flutter.
 The icons are particularly useful for representing different types of points of interest.
 
+[![](https://cdn.jsdelivr.net/gh/ideditor/temaki@main/dist/temaki-view.svg)](https://opener-next.github.io/temaki_flutter/)
+
 ## Usage
 
 Visit the [temaki icon overview](https://opener-next.github.io/temaki_flutter/) page to explore all available icons.
