@@ -1,4 +1,4 @@
-name: Build icon-font from temaki SVG icon files
+name: Generate and commit icon-font and code from temaki SVG icon files
 
 on:
   # Allow running this workflow manually from the Actions tab.
@@ -7,9 +7,9 @@ on:
 env:
   TEMAKI_VERSION_TAG: 'v5.2.0'
 
-# Allow only one concurrent build and deployment workflow
+# Allow only one concurrent workflow
 concurrency:
-  group: "build"
+  group: "file_generation"
   cancel-in-progress: true
 
 jobs:
@@ -55,7 +55,7 @@ jobs:
 
     - name: Setup Flutter SDK
       uses: subosito/flutter-action@v2.8.0
-      
+
     - name: Get pub dependencies
       working-directory: temaki_flutter
       run: flutter pub get
