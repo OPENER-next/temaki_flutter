@@ -3,6 +3,8 @@ targets:
     builders:
       temaki_flutter|icon_class_builder:
         enabled: true
+        generate_for:
+          - lib/*.json
 
 builders:
   icon_class_builder:
