@@ -68,6 +68,7 @@ class IconClassWriter {
         ..static = true
         ..name = iconName
         ..modifier = FieldModifier.constant
+        ..type = refer('IconData', 'package:flutter/widgets.dart')
         ..assignment = refer('_TemakiIconData').newInstance([
           literalNum(iconCode)
         ]).code,
