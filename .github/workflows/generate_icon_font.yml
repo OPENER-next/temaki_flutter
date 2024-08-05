@@ -5,7 +5,7 @@ on:
   workflow_dispatch:
 
 env:
-  TEMAKI_VERSION_TAG: 'v5.2.0'
+  TEMAKI_VERSION_TAG: 'v5.9.0'
 
 # Allow only one concurrent workflow
 concurrency:
