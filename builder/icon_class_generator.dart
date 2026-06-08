@@ -69,29 +69,14 @@ class IconClassWriter {
         ..name = iconName
         ..modifier = FieldModifier.constant
         ..type = refer('IconData', 'package:flutter/widgets.dart')
-        ..assignment = refer('_TemakiIconData').newInstance([
+        ..assignment = refer('IconData', 'package:flutter/widgets.dart').newInstance([
           literalNum(iconCode)
-        ]).code,
-      );
-    }
-  }
-
-  Class _createSubIconDataClass() {
-    return Class((b) => b
-      ..name = '_TemakiIconData'
-      ..extend = refer('IconData', 'package:flutter/widgets.dart')
-      ..constructors.add(Constructor((b) => b
-        ..constant = true
-        ..requiredParameters.add(Parameter(((b) => b
-          ..name = 'iconCode'
-          ..toSuper = true
-        )))
-        ..initializers.add(refer('super').call([], {
+        ], {
           'fontFamily': literalString(fontFamily),
           'fontPackage': literalString(packageName),
-        }).code)
-      )),
-    );
+        }).code,
+      );
+    }
   }
 
   @override
@@ -100,12 +85,11 @@ class IconClassWriter {
       ..name = packageName
       ..body.addAll([
         _createIconClass(),
-        _createSubIconDataClass(),
       ]),
     );
     final emitter = DartEmitter(allocator: Allocator());
 
-    return DartFormatter().format(
+    return DartFormatter(languageVersion: DartFormatter.latestLanguageVersion).format(
       library.accept(emitter).toString(),
     );
   }
