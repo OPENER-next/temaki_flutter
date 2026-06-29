@@ -3,1087 +3,3345 @@ library temaki_flutter;
 import 'package:flutter/widgets.dart';
 
 class TemakiIcons {
-  static const IconData zoo = _TemakiIconData(61697);
-
-  static const IconData yield = _TemakiIconData(61698);
-
-  static const IconData xOblique = _TemakiIconData(61699);
-
-  static const IconData windsock = _TemakiIconData(61700);
-
-  static const IconData windpump = _TemakiIconData(61701);
-
-  static const IconData window = _TemakiIconData(61702);
-
-  static const IconData windmill = _TemakiIconData(61703);
-
-  static const IconData windTurbine = _TemakiIconData(61704);
-
-  static const IconData windSurfing = _TemakiIconData(61705);
-
-  static const IconData wheelchairActive = _TemakiIconData(61706);
-
-  static const IconData wheelchair = _TemakiIconData(61707);
-
-  static const IconData wheel = _TemakiIconData(61708);
-
-  static const IconData whaleWatching = _TemakiIconData(61709);
-
-  static const IconData wellPumpPowered = _TemakiIconData(61710);
-
-  static const IconData wellPumpManual = _TemakiIconData(61711);
-
-  static const IconData waterskiing = _TemakiIconData(61712);
-
-  static const IconData waterTower = _TemakiIconData(61713);
-
-  static const IconData waterTapDrinkable = _TemakiIconData(61714);
-
-  static const IconData waterTap = _TemakiIconData(61715);
-
-  static const IconData waterShutoff = _TemakiIconData(61716);
-
-  static const IconData waterMeter = _TemakiIconData(61717);
-
-  static const IconData waterManhole = _TemakiIconData(61718);
-
-  static const IconData waterDevice = _TemakiIconData(61719);
-
-  static const IconData waterBottle = _TemakiIconData(61720);
-
-  static const IconData water = _TemakiIconData(61721);
-
-  static const IconData wasteShutoff = _TemakiIconData(61722);
-
-  static const IconData wasteMeter = _TemakiIconData(61723);
-
-  static const IconData wasteManhole = _TemakiIconData(61724);
-
-  static const IconData wasteDevice = _TemakiIconData(61725);
-
-  static const IconData waste = _TemakiIconData(61726);
-
-  static const IconData wall = _TemakiIconData(61727);
-
-  static const IconData veterinaryCare = _TemakiIconData(61728);
-
-  static const IconData verticalRotisserie = _TemakiIconData(61729);
-
-  static const IconData vertex = _TemakiIconData(61730);
-
-  static const IconData vendingVenus = _TemakiIconData(61731);
-
-  static const IconData vendingTickets = _TemakiIconData(61732);
-
-  static const IconData vendingStamps = _TemakiIconData(61733);
-
-  static const IconData vendingPetWaste = _TemakiIconData(61734);
-
-  static const IconData vendingNewspaper = _TemakiIconData(61735);
-
-  static const IconData vendingMedicine = _TemakiIconData(61736);
-
-  static const IconData vendingMachine = _TemakiIconData(61737);
-
-  static const IconData vendingLove = _TemakiIconData(61738);
-
-  static const IconData vendingLockers = _TemakiIconData(61739);
-
-  static const IconData vendingIceCream2 = _TemakiIconData(61740);
-
-  static const IconData vendingIceCream = _TemakiIconData(61741);
-
-  static const IconData vendingIce = _TemakiIconData(61742);
-
-  static const IconData vendingHotDrink2 = _TemakiIconData(61743);
-
-  static const IconData vendingHotDrink = _TemakiIconData(61744);
-
-  static const IconData vendingFlatCoin = _TemakiIconData(61745);
-
-  static const IconData vendingEggs = _TemakiIconData(61746);
-
-  static const IconData vendingColdDrink2 = _TemakiIconData(61747);
-
-  static const IconData vendingColdDrink = _TemakiIconData(61748);
-
-  static const IconData vendingCigarettes = _TemakiIconData(61749);
-
-  static const IconData vendingBread = _TemakiIconData(61750);
-
-  static const IconData vase = _TemakiIconData(61751);
-
-  static const IconData valley = _TemakiIconData(61752);
-
-  static const IconData vacuumStation = _TemakiIconData(61753);
-
-  static const IconData vacuum = _TemakiIconData(61754);
-
-  static const IconData utilityPole = _TemakiIconData(61755);
-
-  static const IconData turnstile = _TemakiIconData(61756);
-
-  static const IconData tunnel = _TemakiIconData(61757);
-
-  static const IconData truck = _TemakiIconData(61758);
-
-  static const IconData trolleybus = _TemakiIconData(61759);
-
-  static const IconData trench = _TemakiIconData(61760);
-
-  static const IconData treeStump = _TemakiIconData(61761);
-
-  static const IconData treeRow = _TemakiIconData(61762);
-
-  static const IconData treePalm = _TemakiIconData(61763);
-
-  static const IconData treeNeedleleaved = _TemakiIconData(61764);
-
-  static const IconData treeLeafless = _TemakiIconData(61765);
-
-  static const IconData treeCactus = _TemakiIconData(61766);
-
-  static const IconData treeBroadleaved = _TemakiIconData(61767);
-
-  static const IconData treeAndBench = _TemakiIconData(61768);
-
-  static const IconData transitShelter = _TemakiIconData(61769);
-
-  static const IconData transit = _TemakiIconData(61770);
-
-  static const IconData tramSide = _TemakiIconData(61771);
-
-  static const IconData tram = _TemakiIconData(61772);
-
-  static const IconData trainWash = _TemakiIconData(61773);
-
-  static const IconData trainSteam = _TemakiIconData(61774);
-
-  static const IconData trainKids = _TemakiIconData(61775);
-
-  static const IconData trainDiesel = _TemakiIconData(61776);
-
-  static const IconData trainBullet = _TemakiIconData(61777);
-
-  static const IconData train = _TemakiIconData(61778);
-
-  static const IconData trafficSignals = _TemakiIconData(61779);
-
-  static const IconData townHall = _TemakiIconData(61780);
-
-  static const IconData towerCommunication = _TemakiIconData(61781);
-
-  static const IconData tower = _TemakiIconData(61782);
-
-  static const IconData tools = _TemakiIconData(61783);
-
-  static const IconData toolbox = _TemakiIconData(61784);
-
-  static const IconData tollGantry = _TemakiIconData(61785);
-
-  static const IconData tireCourse = _TemakiIconData(61786);
-
-  static const IconData tire = _TemakiIconData(61787);
-
-  static const IconData tiling = _TemakiIconData(61788);
-
-  static const IconData ticket = _TemakiIconData(61789);
-
-  static const IconData tents = _TemakiIconData(61790);
-
-  static const IconData tennis = _TemakiIconData(61791);
-
-  static const IconData temaki = _TemakiIconData(61792);
-
-  static const IconData telescope = _TemakiIconData(61793);
-
-  static const IconData telephone = _TemakiIconData(61794);
-
-  static const IconData taxiStand = _TemakiIconData(61795);
-
-  static const IconData tattooMachine = _TemakiIconData(61796);
-
-  static const IconData taoism = _TemakiIconData(61797);
-
-  static const IconData tanning2 = _TemakiIconData(61798);
-
-  static const IconData tanning = _TemakiIconData(61799);
-
-  static const IconData tallGate = _TemakiIconData(61800);
-
-  static const IconData tBarLift = _TemakiIconData(61801);
-
-  static const IconData swamp = _TemakiIconData(61802);
-
-  static const IconData surfing = _TemakiIconData(61803);
-
-  static const IconData suitcaseXray = _TemakiIconData(61804);
-
-  static const IconData suitcaseKey = _TemakiIconData(61805);
-
-  static const IconData suitcase = _TemakiIconData(61806);
-
-  static const IconData subway = _TemakiIconData(61807);
-
-  static const IconData stripedZone = _TemakiIconData(61808);
-
-  static const IconData stripedWay = _TemakiIconData(61809);
-
-  static const IconData streetLampArm = _TemakiIconData(61810);
-
-  static const IconData storageTank = _TemakiIconData(61811);
-
-  static const IconData storageRental = _TemakiIconData(61812);
-
-  static const IconData storageFermenter = _TemakiIconData(61813);
-
-  static const IconData storageDrum = _TemakiIconData(61814);
-
-  static const IconData storage = _TemakiIconData(61815);
-
-  static const IconData stop = _TemakiIconData(61816);
-
-  static const IconData stileSqueezer = _TemakiIconData(61817);
-
-  static const IconData statue = _TemakiIconData(61818);
-
-  static const IconData stamp = _TemakiIconData(61819);
-
-  static const IconData springRider = _TemakiIconData(61820);
-
-  static const IconData spottingScope = _TemakiIconData(61821);
-
-  static const IconData spikeStrip = _TemakiIconData(61822);
-
-  static const IconData spiceBottle = _TemakiIconData(61823);
-
-  static const IconData speedwayOval = _TemakiIconData(61824);
-
-  static const IconData speedway8 = _TemakiIconData(61825);
-
-  static const IconData speedTable = _TemakiIconData(61826);
-
-  static const IconData speedHump = _TemakiIconData(61827);
-
-  static const IconData speedDipDouble = _TemakiIconData(61828);
-
-  static const IconData speedDip = _TemakiIconData(61829);
-
-  static const IconData speedBump = _TemakiIconData(61830);
-
-  static const IconData speaker = _TemakiIconData(61831);
-
-  static const IconData spa = _TemakiIconData(61832);
-
-  static const IconData socialFacility = _TemakiIconData(61833);
-
-  static const IconData snowmobile = _TemakiIconData(61834);
-
-  static const IconData snowboarding = _TemakiIconData(61835);
-
-  static const IconData snowShoeing = _TemakiIconData(61836);
-
-  static const IconData snow = _TemakiIconData(61837);
-
-  static const IconData slide = _TemakiIconData(61838);
-
-  static const IconData sleepShelter = _TemakiIconData(61839);
-
-  static const IconData sledding = _TemakiIconData(61840);
-
-  static const IconData skiing = _TemakiIconData(61841);
-
-  static const IconData skiJumping = _TemakiIconData(61842);
-
-  static const IconData skateboarding = _TemakiIconData(61843);
-
-  static const IconData silo = _TemakiIconData(61844);
-
-  static const IconData sikhism = _TemakiIconData(61845);
-
-  static const IconData signAndPedestrian = _TemakiIconData(61846);
-
-  static const IconData signAndCar = _TemakiIconData(61847);
-
-  static const IconData signAndBench = _TemakiIconData(61848);
-
-  static const IconData shuffleboard = _TemakiIconData(61849);
-
-  static const IconData shrubLow = _TemakiIconData(61850);
-
-  static const IconData shrub = _TemakiIconData(61851);
-
-  static const IconData shower = _TemakiIconData(61852);
-
-  static const IconData shoppingMall = _TemakiIconData(61853);
-
-  static const IconData shinto = _TemakiIconData(61854);
-
-  static const IconData shield = _TemakiIconData(61855);
-
-  static const IconData seesaw = _TemakiIconData(61856);
-
-  static const IconData securityCamera = _TemakiIconData(61857);
-
-  static const IconData sculpture = _TemakiIconData(61858);
-
-  static const IconData scubaDiving = _TemakiIconData(61859);
-
-  static const IconData schoolBus = _TemakiIconData(61860);
-
-  static const IconData school = _TemakiIconData(61861);
-
-  static const IconData scaffold = _TemakiIconData(61862);
-
-  static const IconData sandwich = _TemakiIconData(61863);
-
-  static const IconData sandbox = _TemakiIconData(61864);
-
-  static const IconData sailing = _TemakiIconData(61865);
-
-  static const IconData sailboat = _TemakiIconData(61866);
-
-  static const IconData sail = _TemakiIconData(61867);
-
-  static const IconData saddle = _TemakiIconData(61868);
-
-  static const IconData rumbleStrip = _TemakiIconData(61869);
-
-  static const IconData ruins = _TemakiIconData(61870);
-
-  static const IconData rowHouses = _TemakiIconData(61871);
-
-  static const IconData ropeFence = _TemakiIconData(61872);
-
-  static const IconData room = _TemakiIconData(61873);
-
-  static const IconData rollerCoaster = _TemakiIconData(61874);
-
-  static const IconData rocketFirework = _TemakiIconData(61875);
-
-  static const IconData rigging = _TemakiIconData(61876);
-
-  static const IconData realEstateAgency = _TemakiIconData(61877);
-
-  static const IconData railwayTrackPartial = _TemakiIconData(61878);
-
-  static const IconData railwayTrackNarrow = _TemakiIconData(61879);
-
-  static const IconData railwayTrackMini = _TemakiIconData(61880);
-
-  static const IconData railwayTrackAskew = _TemakiIconData(61881);
-
-  static const IconData railwayTrack = _TemakiIconData(61882);
-
-  static const IconData railwaySignals = _TemakiIconData(61883);
-
-  static const IconData railwayCableTrack = _TemakiIconData(61884);
-
-  static const IconData railing = _TemakiIconData(61885);
-
-  static const IconData railProfile = _TemakiIconData(61886);
-
-  static const IconData railFlag = _TemakiIconData(61887);
-
-  static const IconData rafting = _TemakiIconData(61888);
-
-  static const IconData radio = _TemakiIconData(61889);
-
-  static const IconData radiation = _TemakiIconData(61890);
-
-  static const IconData racetrackOval = _TemakiIconData(61891);
-
-  static const IconData quay = _TemakiIconData(61892);
-
-  static const IconData quakerism = _TemakiIconData(61893);
-
-  static const IconData psychic = _TemakiIconData(61894);
-
-  static const IconData propaneTank = _TemakiIconData(61895);
-
-  static const IconData poweredPump = _TemakiIconData(61896);
-
-  static const IconData powerTransformer = _TemakiIconData(61897);
-
-  static const IconData powerTower = _TemakiIconData(61898);
-
-  static const IconData powerSwitch = _TemakiIconData(61899);
-
-  static const IconData powerShutoff = _TemakiIconData(61900);
-
-  static const IconData powerPole = _TemakiIconData(61901);
-
-  static const IconData powerMeter = _TemakiIconData(61902);
-
-  static const IconData powerManhole = _TemakiIconData(61903);
-
-  static const IconData powerLa = _TemakiIconData(61904);
-
-  static const IconData powerIsolator = _TemakiIconData(61905);
-
-  static const IconData powerDevice = _TemakiIconData(61906);
-
-  static const IconData powerCt = _TemakiIconData(61907);
-
-  static const IconData powerCircuit = _TemakiIconData(61908);
-
-  static const IconData powerCb2 = _TemakiIconData(61909);
-
-  static const IconData powerCb = _TemakiIconData(61910);
-
-  static const IconData power = _TemakiIconData(61911);
-
-  static const IconData posterBox = _TemakiIconData(61912);
-
-  static const IconData postBox = _TemakiIconData(61913);
-
-  static const IconData portraitFramed = _TemakiIconData(61914);
-
-  static const IconData portrait = _TemakiIconData(61915);
-
-  static const IconData polishedNail = _TemakiIconData(61916);
-
-  static const IconData policeOfficer = _TemakiIconData(61917);
-
-  static const IconData policeCheckpoint = _TemakiIconData(61918);
-
-  static const IconData plumber = _TemakiIconData(61919);
-
-  static const IconData playStructure = _TemakiIconData(61920);
-
-  static const IconData platterLift = _TemakiIconData(61921);
-
-  static const IconData plaque = _TemakiIconData(61922);
-
-  static const IconData plant = _TemakiIconData(61923);
-
-  static const IconData planesBidirectional = _TemakiIconData(61924);
-
-  static const IconData planes = _TemakiIconData(61925);
-
-  static const IconData planeTaxiing = _TemakiIconData(61926);
-
-  static const IconData pipe = _TemakiIconData(61927);
-
-  static const IconData pin = _TemakiIconData(61928);
-
-  static const IconData pierFloating = _TemakiIconData(61929);
-
-  static const IconData pierFixed = _TemakiIconData(61930);
-
-  static const IconData picnicShelter = _TemakiIconData(61931);
-
-  static const IconData pickHammer = _TemakiIconData(61932);
-
-  static const IconData physiotherapist = _TemakiIconData(61933);
-
-  static const IconData pharmacy = _TemakiIconData(61934);
-
-  static const IconData petStore = _TemakiIconData(61935);
-
-  static const IconData petGrooming = _TemakiIconData(61936);
-
-  static const IconData perfume = _TemakiIconData(61937);
-
-  static const IconData pedestrianWalled = _TemakiIconData(61938);
-
-  static const IconData pedestrianCrosswalk = _TemakiIconData(61939);
-
-  static const IconData pedestrianAndCyclist = _TemakiIconData(61940);
-
-  static const IconData pedestrian = _TemakiIconData(61941);
-
-  static const IconData pedCyclistCrosswalk = _TemakiIconData(61942);
-
-  static const IconData passportCheckpoint = _TemakiIconData(61943);
-
-  static const IconData parkingSpace = _TemakiIconData(61944);
-
-  static const IconData osBenchmark = _TemakiIconData(61945);
-
-  static const IconData oilWell = _TemakiIconData(61946);
-
-  static const IconData obelisk = _TemakiIconData(61947);
-
-  static const IconData needleAndSpool = _TemakiIconData(61948);
-
-  static const IconData museum = _TemakiIconData(61949);
-
-  static const IconData movieRental = _TemakiIconData(61950);
-
-  static const IconData mountainRange = _TemakiIconData(61951);
-
-  static const IconData mountainCross = _TemakiIconData(61952);
-
-  static const IconData mountainAsterisk = _TemakiIconData(61953);
-
-  static const IconData motorcycleRepair = _TemakiIconData(61954);
-
-  static const IconData motorcycleRental = _TemakiIconData(61955);
-
-  static const IconData motorcycle = _TemakiIconData(61956);
-
-  static const IconData monorail = _TemakiIconData(61957);
-
-  static const IconData moneyHand = _TemakiIconData(61958);
-
-  static const IconData mineshaftProfile = _TemakiIconData(61959);
-
-  static const IconData mineshaftCage = _TemakiIconData(61960);
-
-  static const IconData milkJug = _TemakiIconData(61961);
-
-  static const IconData militaryCheckpoint = _TemakiIconData(61962);
-
-  static const IconData military = _TemakiIconData(61963);
-
-  static const IconData milestone = _TemakiIconData(61964);
-
-  static const IconData meat = _TemakiIconData(61965);
-
-  static const IconData maze = _TemakiIconData(61966);
-
-  static const IconData mastLighting = _TemakiIconData(61967);
-
-  static const IconData mastCommunication = _TemakiIconData(61968);
-
-  static const IconData mast = _TemakiIconData(61969);
-
-  static const IconData manufacturedHome = _TemakiIconData(61970);
-
-  static const IconData manhole = _TemakiIconData(61971);
-
-  static const IconData lounging = _TemakiIconData(61972);
-
-  static const IconData lounger = _TemakiIconData(61973);
-
-  static const IconData lock = _TemakiIconData(61974);
-
-  static const IconData lipstick = _TemakiIconData(61975);
-
-  static const IconData lightRail = _TemakiIconData(61976);
-
-  static const IconData liftGate = _TemakiIconData(61977);
-
-  static const IconData library = _TemakiIconData(61978);
-
-  static const IconData letterBox = _TemakiIconData(61979);
-
-  static const IconData lawyer = _TemakiIconData(61980);
-
-  static const IconData lawn = _TemakiIconData(61981);
-
-  static const IconData laundry = _TemakiIconData(61982);
-
-  static const IconData latrine = _TemakiIconData(61983);
-
-  static const IconData kitchenSink = _TemakiIconData(61984);
-
-  static const IconData kerbUnspecified = _TemakiIconData(61985);
-
-  static const IconData kerbRolled = _TemakiIconData(61986);
-
-  static const IconData kerbRaised = _TemakiIconData(61987);
-
-  static const IconData kerbLowered = _TemakiIconData(61988);
-
-  static const IconData kerbFlush = _TemakiIconData(61989);
-
-  static const IconData kayaking = _TemakiIconData(61990);
-
-  static const IconData junkCar = _TemakiIconData(61991);
-
-  static const IconData junction = _TemakiIconData(61992);
-
-  static const IconData jewelryStore = _TemakiIconData(61993);
-
-  static const IconData jetplaneFront = _TemakiIconData(61994);
-
-  static const IconData jetSkiing = _TemakiIconData(61995);
-
-  static const IconData jBarLift = _TemakiIconData(61996);
-
-  static const IconData isletTree = _TemakiIconData(61997);
-
-  static const IconData islandTreesBuilding = _TemakiIconData(61998);
-
-  static const IconData inlineSkating = _TemakiIconData(61999);
-
-  static const IconData infoBoard = _TemakiIconData(62000);
-
-  static const IconData iceSkating = _TemakiIconData(62001);
-
-  static const IconData iceFishing = _TemakiIconData(62002);
-
-  static const IconData hut = _TemakiIconData(62003);
-
-  static const IconData huntingBlind = _TemakiIconData(62004);
-
-  static const IconData houseboat = _TemakiIconData(62005);
-
-  static const IconData hotDrinkCup = _TemakiIconData(62006);
-
-  static const IconData horseshoes = _TemakiIconData(62007);
-
-  static const IconData horseshoe = _TemakiIconData(62008);
-
-  static const IconData horseShelter = _TemakiIconData(62009);
-
-  static const IconData hornCleat = _TemakiIconData(62010);
-
-  static const IconData horizontalBar = _TemakiIconData(62011);
-
-  static const IconData hinduism = _TemakiIconData(62012);
-
-  static const IconData heightRestrictor = _TemakiIconData(62013);
-
-  static const IconData hedge = _TemakiIconData(62014);
-
-  static const IconData heavyRail = _TemakiIconData(62015);
-
-  static const IconData heart = _TemakiIconData(62016);
-
-  static const IconData hearingAid = _TemakiIconData(62017);
-
-  static const IconData hangingRail = _TemakiIconData(62018);
-
-  static const IconData hangar = _TemakiIconData(62019);
-
-  static const IconData hangGliding = _TemakiIconData(62020);
-
-  static const IconData handbag = _TemakiIconData(62021);
-
-  static const IconData hand = _TemakiIconData(62022);
-
-  static const IconData hammerShoe = _TemakiIconData(62023);
-
-  static const IconData hairCare = _TemakiIconData(62024);
-
-  static const IconData gym = _TemakiIconData(62025);
-
-  static const IconData guardRail = _TemakiIconData(62026);
-
-  static const IconData grass = _TemakiIconData(62027);
-
-  static const IconData grapes = _TemakiIconData(62028);
-
-  static const IconData gown = _TemakiIconData(62029);
-
-  static const IconData goodsLift = _TemakiIconData(62030);
-
-  static const IconData gondolaLift = _TemakiIconData(62031);
-
-  static const IconData golfGreen = _TemakiIconData(62032);
-
-  static const IconData golfCart = _TemakiIconData(62033);
-
-  static const IconData gate = _TemakiIconData(62034);
-
-  static const IconData gasShutoff = _TemakiIconData(62035);
-
-  static const IconData gasMeter = _TemakiIconData(62036);
-
-  static const IconData gasManhole = _TemakiIconData(62037);
-
-  static const IconData gasDevice = _TemakiIconData(62038);
-
-  static const IconData gas = _TemakiIconData(62039);
-
-  static const IconData gardenBed = _TemakiIconData(62040);
-
-  static const IconData furniture = _TemakiIconData(62041);
-
-  static const IconData freightCar = _TemakiIconData(62042);
-
-  static const IconData fountain = _TemakiIconData(62043);
-
-  static const IconData footwearDecontamination = _TemakiIconData(62044);
-
-  static const IconData food = _TemakiIconData(62045);
-
-  static const IconData florist = _TemakiIconData(62046);
-
-  static const IconData fishingPier = _TemakiIconData(62047);
-
-  static const IconData fishLadder = _TemakiIconData(62048);
-
-  static const IconData fishCleaning = _TemakiIconData(62049);
-
-  static const IconData fireplace = _TemakiIconData(62050);
-
-  static const IconData fireHydrantUnderground = _TemakiIconData(62051);
-
-  static const IconData fireHydrant = _TemakiIconData(62052);
-
-  static const IconData fighterJet = _TemakiIconData(62053);
-
-  static const IconData fieldHockey = _TemakiIconData(62054);
-
-  static const IconData ferry = _TemakiIconData(62055);
-
-  static const IconData fashionAccessories = _TemakiIconData(62056);
-
-  static const IconData embassy = _TemakiIconData(62057);
-
-  static const IconData elevator = _TemakiIconData(62058);
-
-  static const IconData electronic = _TemakiIconData(62059);
-
-  static const IconData egg = _TemakiIconData(62060);
-
-  static const IconData ear = _TemakiIconData(62061);
-
-  static const IconData drinkCup = _TemakiIconData(62062);
-
-  static const IconData dress = _TemakiIconData(62063);
-
-  static const IconData dragLift = _TemakiIconData(62064);
-
-  static const IconData donut = _TemakiIconData(62065);
-
-  static const IconData domedTower = _TemakiIconData(62066);
-
-  static const IconData dogShelter = _TemakiIconData(62067);
-
-  static const IconData diving = _TemakiIconData(62068);
-
-  static const IconData discGolfBasket = _TemakiIconData(62069);
-
-  static const IconData dice = _TemakiIconData(62070);
-
-  static const IconData diamond = _TemakiIconData(62071);
-
-  static const IconData detergentBottle = _TemakiIconData(62072);
-
-  static const IconData deskLamp = _TemakiIconData(62073);
-
-  static const IconData dagger = _TemakiIconData(62074);
-
-  static const IconData cyclistCrosswalk = _TemakiIconData(62075);
-
-  static const IconData cycleBarrier = _TemakiIconData(62076);
-
-  static const IconData curtains = _TemakiIconData(62077);
-
-  static const IconData crossingTramStriped = _TemakiIconData(62078);
-
-  static const IconData crossingTramSolid = _TemakiIconData(62079);
-
-  static const IconData crossingTramRoad = _TemakiIconData(62080);
-
-  static const IconData crossingRailStriped = _TemakiIconData(62081);
-
-  static const IconData crossingRailSolid = _TemakiIconData(62082);
-
-  static const IconData crossingRailRoad = _TemakiIconData(62083);
-
-  static const IconData crossingRailRail = _TemakiIconData(62084);
-
-  static const IconData crossingMarkingsZebraPaired = _TemakiIconData(62085);
-
-  static const IconData crossingMarkingsZebraDouble = _TemakiIconData(62086);
-
-  static const IconData crossingMarkingsZebraBicolour = _TemakiIconData(62087);
-
-  static const IconData crossingMarkingsZebra = _TemakiIconData(62088);
-
-  static const IconData crossingMarkingsSurface = _TemakiIconData(62089);
-
-  static const IconData crossingMarkingsLinesPaired = _TemakiIconData(62090);
-
-  static const IconData crossingMarkingsLines = _TemakiIconData(62091);
-
-  static const IconData crossingMarkingsLadderSkewed = _TemakiIconData(62092);
-
-  static const IconData crossingMarkingsLadderPaired = _TemakiIconData(62093);
-
-  static const IconData crossingMarkingsLadder = _TemakiIconData(62094);
-
-  static const IconData crossingMarkingsDots = _TemakiIconData(62095);
-
-  static const IconData crossingMarkingsDashes = _TemakiIconData(62096);
-
-  static const IconData crossCountrySkiing = _TemakiIconData(62097);
-
-  static const IconData crane = _TemakiIconData(62098);
-
-  static const IconData courthouse = _TemakiIconData(62099);
-
-  static const IconData coralReef = _TemakiIconData(62100);
-
-  static const IconData coolingTowerRadiation = _TemakiIconData(62101);
-
-  static const IconData coolingTower = _TemakiIconData(62102);
-
-  static const IconData conveyor = _TemakiIconData(62103);
-
-  static const IconData compass = _TemakiIconData(62104);
-
-  static const IconData coffee = _TemakiIconData(62105);
-
-  static const IconData clothesHanger = _TemakiIconData(62106);
-
-  static const IconData cloth = _TemakiIconData(62107);
-
-  static const IconData clock = _TemakiIconData(62108);
-
-  static const IconData climbing = _TemakiIconData(62109);
-
-  static const IconData cliffFallingRocks = _TemakiIconData(62110);
-
-  static const IconData cleaver = _TemakiIconData(62111);
-
-  static const IconData chocolate = _TemakiIconData(62112);
-
-  static const IconData chimney = _TemakiIconData(62113);
-
-  static const IconData chicaneArrow = _TemakiIconData(62114);
-
-  static const IconData chefsKnife = _TemakiIconData(62115);
-
-  static const IconData checkpoint = _TemakiIconData(62116);
-
-  static const IconData chairlift = _TemakiIconData(62117);
-
-  static const IconData cattleGrid = _TemakiIconData(62118);
-
-  static const IconData catering = _TemakiIconData(62119);
-
-  static const IconData casino = _TemakiIconData(62120);
-
-  static const IconData carport = _TemakiIconData(62121);
-
-  static const IconData carWash = _TemakiIconData(62122);
-
-  static const IconData carStructure = _TemakiIconData(62123);
-
-  static const IconData carPool = _TemakiIconData(62124);
-
-  static const IconData carParked = _TemakiIconData(62125);
-
-  static const IconData carDealer = _TemakiIconData(62126);
-
-  static const IconData capitol = _TemakiIconData(62127);
-
-  static const IconData capeLandform = _TemakiIconData(62128);
-
-  static const IconData canoe = _TemakiIconData(62129);
-
-  static const IconData can = _TemakiIconData(62130);
-
-  static const IconData campfire = _TemakiIconData(62131);
-
-  static const IconData camperTrailerDump = _TemakiIconData(62132);
-
-  static const IconData camperTrailer = _TemakiIconData(62133);
-
-  static const IconData cairn = _TemakiIconData(62134);
-
-  static const IconData cableShutoff = _TemakiIconData(62135);
-
-  static const IconData cableMeter = _TemakiIconData(62136);
-
-  static const IconData cableManhole = _TemakiIconData(62137);
-
-  static const IconData cableDevice = _TemakiIconData(62138);
-
-  static const IconData cable = _TemakiIconData(62139);
-
-  static const IconData cabin = _TemakiIconData(62140);
-
-  static const IconData busGuided = _TemakiIconData(62141);
-
-  static const IconData bus = _TemakiIconData(62142);
-
-  static const IconData buoy = _TemakiIconData(62143);
-
-  static const IconData bunkerSilo = _TemakiIconData(62144);
-
-  static const IconData bunker = _TemakiIconData(62145);
-
-  static const IconData bunkBeds = _TemakiIconData(62146);
-
-  static const IconData bulletinBoard = _TemakiIconData(62147);
-
-  static const IconData bulldozer = _TemakiIconData(62148);
-
-  static const IconData bulb3 = _TemakiIconData(62149);
-
-  static const IconData bulb2 = _TemakiIconData(62150);
-
-  static const IconData bulb = _TemakiIconData(62151);
-
-  static const IconData bufferStop = _TemakiIconData(62152);
-
-  static const IconData bubbleTea = _TemakiIconData(62153);
-
-  static const IconData briefcaseShield = _TemakiIconData(62154);
-
-  static const IconData briefcaseInfo = _TemakiIconData(62155);
-
-  static const IconData briefcaseCross = _TemakiIconData(62156);
-
-  static const IconData briefcaseBolt = _TemakiIconData(62157);
-
-  static const IconData briefcaseAsterisk = _TemakiIconData(62158);
-
-  static const IconData briefcase = _TemakiIconData(62159);
-
-  static const IconData bridge = _TemakiIconData(62160);
-
-  static const IconData brickTrowel = _TemakiIconData(62161);
-
-  static const IconData bread = _TemakiIconData(62162);
-
-  static const IconData bowlingAlt1 = _TemakiIconData(62163);
-
-  static const IconData bowling = _TemakiIconData(62164);
-
-  static const IconData bowAndArrow = _TemakiIconData(62165);
-
-  static const IconData boulder3 = _TemakiIconData(62166);
-
-  static const IconData boulder2 = _TemakiIconData(62167);
-
-  static const IconData boulder1 = _TemakiIconData(62168);
-
-  static const IconData bottles = _TemakiIconData(62169);
-
-  static const IconData bookStore = _TemakiIconData(62170);
-
-  static const IconData bollardRow = _TemakiIconData(62171);
-
-  static const IconData bollard = _TemakiIconData(62172);
-
-  static const IconData boating = _TemakiIconData(62173);
-
-  static const IconData boatTour = _TemakiIconData(62174);
-
-  static const IconData boatRepair = _TemakiIconData(62175);
-
-  static const IconData boatRental = _TemakiIconData(62176);
-
-  static const IconData boatRamp = _TemakiIconData(62177);
-
-  static const IconData boatFloating = _TemakiIconData(62178);
-
-  static const IconData boatDryDock = _TemakiIconData(62179);
-
-  static const IconData boat = _TemakiIconData(62180);
-
-  static const IconData boardTrolleybus = _TemakiIconData(62181);
-
-  static const IconData boardTransit = _TemakiIconData(62182);
-
-  static const IconData boardTram = _TemakiIconData(62183);
-
-  static const IconData boardTrainSteam = _TemakiIconData(62184);
-
-  static const IconData boardTrainKids = _TemakiIconData(62185);
-
-  static const IconData boardTrainDiesel = _TemakiIconData(62186);
-
-  static const IconData boardTrainBullet = _TemakiIconData(62187);
-
-  static const IconData boardTrain = _TemakiIconData(62188);
-
-  static const IconData boardSubway = _TemakiIconData(62189);
-
-  static const IconData boardSchoolBus = _TemakiIconData(62190);
-
-  static const IconData boardMonorail = _TemakiIconData(62191);
-
-  static const IconData boardLightRail = _TemakiIconData(62192);
-
-  static const IconData boardHeavyRail = _TemakiIconData(62193);
-
-  static const IconData boardHangingRail = _TemakiIconData(62194);
-
-  static const IconData boardGondolaLift = _TemakiIconData(62195);
-
-  static const IconData boardFerry = _TemakiIconData(62196);
-
-  static const IconData boardBus = _TemakiIconData(62197);
-
-  static const IconData blind = _TemakiIconData(62198);
-
-  static const IconData bleachers = _TemakiIconData(62199);
-
-  static const IconData binoculars = _TemakiIconData(62200);
-
-  static const IconData billboard = _TemakiIconData(62201);
-
-  static const IconData bikini = _TemakiIconData(62202);
-
-  static const IconData bicycleWash = _TemakiIconData(62203);
-
-  static const IconData bicycleStructure = _TemakiIconData(62204);
-
-  static const IconData bicycleShed = _TemakiIconData(62205);
-
-  static const IconData bicycleRepair = _TemakiIconData(62206);
-
-  static const IconData bicycleRental = _TemakiIconData(62207);
-
-  static const IconData bicycleParked = _TemakiIconData(62208);
-
-  static const IconData bicycleLocker = _TemakiIconData(62209);
-
-  static const IconData bicycleBox = _TemakiIconData(62210);
-
-  static const IconData benchmarkDisk = _TemakiIconData(62211);
-
-  static const IconData bench = _TemakiIconData(62212);
-
-  static const IconData beautySalon = _TemakiIconData(62213);
-
-  static const IconData beach = _TemakiIconData(62214);
-
-  static const IconData barn = _TemakiIconData(62215);
-
-  static const IconData balloon = _TemakiIconData(62216);
-
-  static const IconData balanceBeam = _TemakiIconData(62217);
-
-  static const IconData atm2 = _TemakiIconData(62218);
-
-  static const IconData atm = _TemakiIconData(62219);
-
-  static const IconData asterisk = _TemakiIconData(62220);
-
-  static const IconData armyTent = _TemakiIconData(62221);
-
-  static const IconData archery = _TemakiIconData(62222);
-
-  static const IconData appTerminal = _TemakiIconData(62223);
-
-  static const IconData anvilAndHammer = _TemakiIconData(62224);
-
-  static const IconData anvil = _TemakiIconData(62225);
-
-  static const IconData antenna = _TemakiIconData(62226);
-
-  static const IconData anchorMedal = _TemakiIconData(62227);
-
-  static const IconData amusementPark = _TemakiIconData(62228);
-
-  static const IconData airport = _TemakiIconData(62229);
-
-  static const IconData aerialwayPole = _TemakiIconData(62230);
-
-  static const IconData aditProfile = _TemakiIconData(62231);
-
-  static const IconData accounting = _TemakiIconData(62232);
-
-  static const IconData accessibleSpace = _TemakiIconData(62233);
-
-  static const IconData abseiling = _TemakiIconData(62234);
-}
-
-class _TemakiIconData extends IconData {
-  const _TemakiIconData(super.iconCode)
-      : super(
-          fontFamily: 'TemakiIconFont',
-          fontPackage: 'temaki_flutter',
-        );
+  static const IconData zoo = IconData(
+    61697,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData zipWire = IconData(
+    61698,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData yield = IconData(
+    61699,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData xOblique = IconData(
+    61700,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData windsock = IconData(
+    61701,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData windpump = IconData(
+    61702,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData window = IconData(
+    61703,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData windmill = IconData(
+    61704,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData windTurbine = IconData(
+    61705,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData windSurfing = IconData(
+    61706,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData wheelchairActive = IconData(
+    61707,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData wheelchair = IconData(
+    61708,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData wheel = IconData(
+    61709,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData whaleWatching = IconData(
+    61710,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData wellPumpPowered = IconData(
+    61711,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData wellPumpManual = IconData(
+    61712,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData waterskiing = IconData(
+    61713,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData waterTower = IconData(
+    61714,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData waterTapDrinkable = IconData(
+    61715,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData waterTap = IconData(
+    61716,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData waterShutoff = IconData(
+    61717,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData waterMeter = IconData(
+    61718,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData waterManhole = IconData(
+    61719,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData waterDevice = IconData(
+    61720,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData waterBottle = IconData(
+    61721,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData water = IconData(
+    61722,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData wasteShutoff = IconData(
+    61723,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData wasteMeter = IconData(
+    61724,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData wasteManhole = IconData(
+    61725,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData wasteDevice = IconData(
+    61726,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData waste = IconData(
+    61727,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData wall = IconData(
+    61728,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData viewpoint = IconData(
+    61729,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData veterinaryCare = IconData(
+    61730,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData verticalRotisserie = IconData(
+    61731,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData vertex = IconData(
+    61732,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData vendingVenus = IconData(
+    61733,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData vendingTickets = IconData(
+    61734,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData vendingStamps = IconData(
+    61735,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData vendingPetWaste = IconData(
+    61736,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData vendingNewspaper = IconData(
+    61737,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData vendingMedicine = IconData(
+    61738,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData vendingMachine = IconData(
+    61739,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData vendingLove = IconData(
+    61740,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData vendingLockers = IconData(
+    61741,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData vendingIceCream2 = IconData(
+    61742,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData vendingIceCream = IconData(
+    61743,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData vendingIce = IconData(
+    61744,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData vendingHotDrink2 = IconData(
+    61745,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData vendingHotDrink = IconData(
+    61746,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData vendingFlatCoin = IconData(
+    61747,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData vendingEggs = IconData(
+    61748,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData vendingColdDrink2 = IconData(
+    61749,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData vendingColdDrink = IconData(
+    61750,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData vendingCigarettes = IconData(
+    61751,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData vendingBread = IconData(
+    61752,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData vase = IconData(
+    61753,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData valley = IconData(
+    61754,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData vacuumStation = IconData(
+    61755,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData vacuum = IconData(
+    61756,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData utilityPole = IconData(
+    61757,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData turnstile = IconData(
+    61758,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData tunnel = IconData(
+    61759,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData truck = IconData(
+    61760,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData trolleybus = IconData(
+    61761,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData trench = IconData(
+    61762,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData treeStump = IconData(
+    61763,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData treeRow = IconData(
+    61764,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData treePalm = IconData(
+    61765,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData treeNeedleleaved = IconData(
+    61766,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData treeLeafless = IconData(
+    61767,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData treeCactus = IconData(
+    61768,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData treeBroadleaved = IconData(
+    61769,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData treeAndBench = IconData(
+    61770,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData transitShelter = IconData(
+    61771,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData transit = IconData(
+    61772,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData trampoline = IconData(
+    61773,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData tramSide = IconData(
+    61774,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData tram = IconData(
+    61775,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData trainWash = IconData(
+    61776,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData trainSteam = IconData(
+    61777,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData trainKids = IconData(
+    61778,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData trainDiesel = IconData(
+    61779,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData trainBullet = IconData(
+    61780,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData train = IconData(
+    61781,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData trafficSignals = IconData(
+    61782,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData townHall = IconData(
+    61783,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData towerCommunication = IconData(
+    61784,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData tower = IconData(
+    61785,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData tools = IconData(
+    61786,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData toolbox = IconData(
+    61787,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData tollGantry = IconData(
+    61788,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData tireCourse = IconData(
+    61789,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData tire = IconData(
+    61790,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData tiling = IconData(
+    61791,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData ticket = IconData(
+    61792,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData tents = IconData(
+    61793,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData tennis = IconData(
+    61794,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData temaki = IconData(
+    61795,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData telescope = IconData(
+    61796,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData telephone = IconData(
+    61797,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData taxiStand = IconData(
+    61798,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData tattooMachine = IconData(
+    61799,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData taoism = IconData(
+    61800,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData tanning2 = IconData(
+    61801,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData tanning = IconData(
+    61802,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData tallGate = IconData(
+    61803,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData tableSoccer = IconData(
+    61804,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData tBarLift = IconData(
+    61805,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData swing = IconData(
+    61806,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData swamp = IconData(
+    61807,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData surfing = IconData(
+    61808,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData suitcaseXray = IconData(
+    61809,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData suitcaseKey = IconData(
+    61810,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData suitcase = IconData(
+    61811,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData subway = IconData(
+    61812,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData stripedZone = IconData(
+    61813,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData stripedWay = IconData(
+    61814,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData streetLampArm = IconData(
+    61815,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData storageTank = IconData(
+    61816,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData storageRental = IconData(
+    61817,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData storageFermenter = IconData(
+    61818,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData storageDrum = IconData(
+    61819,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData storage = IconData(
+    61820,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData stop = IconData(
+    61821,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData stileSqueezer = IconData(
+    61822,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData statue = IconData(
+    61823,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData stamp = IconData(
+    61824,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData springRider = IconData(
+    61825,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData spottingScope = IconData(
+    61826,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData splashPad = IconData(
+    61827,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData spikeStrip = IconData(
+    61828,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData spiceBottle = IconData(
+    61829,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData speedwayOval = IconData(
+    61830,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData speedway8 = IconData(
+    61831,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData speedTable = IconData(
+    61832,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData speedHump = IconData(
+    61833,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData speedDipDouble = IconData(
+    61834,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData speedDip = IconData(
+    61835,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData speedBump = IconData(
+    61836,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData speaker = IconData(
+    61837,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData spa = IconData(
+    61838,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData socialFacility = IconData(
+    61839,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData snowmobile = IconData(
+    61840,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData snowboarding = IconData(
+    61841,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData snowShoeing = IconData(
+    61842,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData snow = IconData(
+    61843,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData slide2 = IconData(
+    61844,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData slide = IconData(
+    61845,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData sleepShelter = IconData(
+    61846,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData sledding = IconData(
+    61847,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData skiing = IconData(
+    61848,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData skiJumping = IconData(
+    61849,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData skateboarding = IconData(
+    61850,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData silo = IconData(
+    61851,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData sikhism = IconData(
+    61852,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData signAndPedestrian = IconData(
+    61853,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData signAndCar = IconData(
+    61854,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData signAndBench = IconData(
+    61855,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData shuffleboard = IconData(
+    61856,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData shrubLow = IconData(
+    61857,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData shrub = IconData(
+    61858,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData shower = IconData(
+    61859,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData shoppingMall = IconData(
+    61860,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData shinto = IconData(
+    61861,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData shield = IconData(
+    61862,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData seesaw = IconData(
+    61863,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData securityCamera = IconData(
+    61864,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData sculpture = IconData(
+    61865,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData scubaDiving = IconData(
+    61866,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData schoolBus = IconData(
+    61867,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData school = IconData(
+    61868,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData scaffold = IconData(
+    61869,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData sandwich = IconData(
+    61870,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData sandbox = IconData(
+    61871,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData sailing = IconData(
+    61872,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData sailboat = IconData(
+    61873,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData sail = IconData(
+    61874,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData saddle = IconData(
+    61875,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData rumbleStrip = IconData(
+    61876,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData ruins = IconData(
+    61877,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData rowHouses = IconData(
+    61878,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData ropeFence = IconData(
+    61879,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData room = IconData(
+    61880,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData rollerCoaster = IconData(
+    61881,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData rocketFirework = IconData(
+    61882,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData rigging = IconData(
+    61883,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData realEstateAgency = IconData(
+    61884,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData railwayTrackPartial = IconData(
+    61885,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData railwayTrackNarrow = IconData(
+    61886,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData railwayTrackMini = IconData(
+    61887,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData railwayTrackAskew = IconData(
+    61888,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData railwayTrack = IconData(
+    61889,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData railwaySignals = IconData(
+    61890,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData railwayCableTrack = IconData(
+    61891,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData railing = IconData(
+    61892,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData railProfile = IconData(
+    61893,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData railFlag = IconData(
+    61894,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData rafting = IconData(
+    61895,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData radio = IconData(
+    61896,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData radiation = IconData(
+    61897,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData racetrackOval = IconData(
+    61898,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData quay = IconData(
+    61899,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData quakerism = IconData(
+    61900,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData psychic = IconData(
+    61901,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData propaneTank = IconData(
+    61902,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData poweredPump = IconData(
+    61903,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData powerTransformer = IconData(
+    61904,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData powerTower = IconData(
+    61905,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData powerSwitch = IconData(
+    61906,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData powerShutoff = IconData(
+    61907,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData powerPole = IconData(
+    61908,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData powerMeter = IconData(
+    61909,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData powerManhole = IconData(
+    61910,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData powerLa = IconData(
+    61911,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData powerIsolator = IconData(
+    61912,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData powerDevice = IconData(
+    61913,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData powerCt = IconData(
+    61914,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData powerCircuit = IconData(
+    61915,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData powerCb2 = IconData(
+    61916,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData powerCb = IconData(
+    61917,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData power = IconData(
+    61918,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData posterBox = IconData(
+    61919,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData postBox = IconData(
+    61920,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData portraitFramed = IconData(
+    61921,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData portrait = IconData(
+    61922,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData polishedNail = IconData(
+    61923,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData policeOfficer = IconData(
+    61924,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData policeCheckpoint = IconData(
+    61925,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData plumber = IconData(
+    61926,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData playhouse = IconData(
+    61927,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData playStructure = IconData(
+    61928,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData platterLift = IconData(
+    61929,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData plaque = IconData(
+    61930,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData plant = IconData(
+    61931,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData planesBidirectional = IconData(
+    61932,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData planes = IconData(
+    61933,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData planeTaxiing = IconData(
+    61934,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData pipe = IconData(
+    61935,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData pin = IconData(
+    61936,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData pierFloating = IconData(
+    61937,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData pierFixed = IconData(
+    61938,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData picnicShelter = IconData(
+    61939,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData pickleball = IconData(
+    61940,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData pickHammer = IconData(
+    61941,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData physiotherapist = IconData(
+    61942,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData pharmacy = IconData(
+    61943,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData petStore = IconData(
+    61944,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData petGrooming = IconData(
+    61945,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData perfume = IconData(
+    61946,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData pedestrianWalled = IconData(
+    61947,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData pedestrianCrosswalk = IconData(
+    61948,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData pedestrianAndCyclist = IconData(
+    61949,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData pedestrian = IconData(
+    61950,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData pedCyclistCrosswalk = IconData(
+    61951,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData passportCheckpoint = IconData(
+    61952,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData parkingSpace = IconData(
+    61953,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData paifang = IconData(
+    61954,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData osBenchmark = IconData(
+    61955,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData oilWell = IconData(
+    61956,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData obelisk = IconData(
+    61957,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData needleAndSpool = IconData(
+    61958,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData naturalArch = IconData(
+    61959,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData museum = IconData(
+    61960,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData movieRental = IconData(
+    61961,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData mountainRange = IconData(
+    61962,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData mountainCross = IconData(
+    61963,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData mountainAsterisk = IconData(
+    61964,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData motorcycleRepair = IconData(
+    61965,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData motorcycleRental = IconData(
+    61966,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData motorcycleParked = IconData(
+    61967,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData motorcycle = IconData(
+    61968,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData monorail = IconData(
+    61969,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData moneyHand = IconData(
+    61970,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData mineshaftProfile = IconData(
+    61971,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData mineshaftCage = IconData(
+    61972,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData milkJug = IconData(
+    61973,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData militaryCheckpoint = IconData(
+    61974,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData military = IconData(
+    61975,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData milestone = IconData(
+    61976,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData meat = IconData(
+    61977,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData maze = IconData(
+    61978,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData mastLighting = IconData(
+    61979,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData mastCommunication = IconData(
+    61980,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData mast = IconData(
+    61981,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData manufacturedHome = IconData(
+    61982,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData manhole = IconData(
+    61983,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData lounging = IconData(
+    61984,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData lounger = IconData(
+    61985,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData lock = IconData(
+    61986,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData lipstick = IconData(
+    61987,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData lightRail = IconData(
+    61988,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData liftGate = IconData(
+    61989,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData library = IconData(
+    61990,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData letterBox = IconData(
+    61991,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData lawyer = IconData(
+    61992,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData lawn = IconData(
+    61993,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData laundry = IconData(
+    61994,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData latrine = IconData(
+    61995,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData kitchenSink = IconData(
+    61996,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData kerbUnspecified = IconData(
+    61997,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData kerbRolled = IconData(
+    61998,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData kerbRaised = IconData(
+    61999,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData kerbLowered = IconData(
+    62000,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData kerbFlush = IconData(
+    62001,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData kayaking = IconData(
+    62002,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData junkCar = IconData(
+    62003,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData junction = IconData(
+    62004,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData jewelryStore = IconData(
+    62005,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData jetplaneFront = IconData(
+    62006,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData jetSkiing = IconData(
+    62007,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData jBarLift = IconData(
+    62008,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData isletTree = IconData(
+    62009,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData islandTreesBuilding = IconData(
+    62010,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData inlineSkating = IconData(
+    62011,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData infoBoard = IconData(
+    62012,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData iceSkating = IconData(
+    62013,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData iceFishing = IconData(
+    62014,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData hut = IconData(
+    62015,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData huntingBlind = IconData(
+    62016,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData houseboat = IconData(
+    62017,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData hotpot = IconData(
+    62018,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData hotDrinkCup = IconData(
+    62019,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData horseshoes = IconData(
+    62020,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData horseshoe = IconData(
+    62021,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData horseShelter = IconData(
+    62022,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData hornCleat = IconData(
+    62023,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData horizontalBar = IconData(
+    62024,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData hinduism = IconData(
+    62025,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData heightRestrictor = IconData(
+    62026,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData hedge = IconData(
+    62027,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData heavyRail = IconData(
+    62028,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData heart = IconData(
+    62029,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData hearingAid = IconData(
+    62030,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData hangingRail = IconData(
+    62031,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData hangar = IconData(
+    62032,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData hangGliding = IconData(
+    62033,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData handbag = IconData(
+    62034,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData hand = IconData(
+    62035,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData hammerShoe = IconData(
+    62036,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData hairCare = IconData(
+    62037,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData gym = IconData(
+    62038,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData guardRail = IconData(
+    62039,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData grass = IconData(
+    62040,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData grapes = IconData(
+    62041,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData gown = IconData(
+    62042,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData goodsLift = IconData(
+    62043,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData gondolaLift = IconData(
+    62044,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData golfGreen = IconData(
+    62045,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData golfCart = IconData(
+    62046,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData geyserFromGround = IconData(
+    62047,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData gate = IconData(
+    62048,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData gasShutoff = IconData(
+    62049,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData gasMeter = IconData(
+    62050,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData gasManhole = IconData(
+    62051,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData gasDevice = IconData(
+    62052,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData gas = IconData(
+    62053,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData gardenBed = IconData(
+    62054,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData furniture = IconData(
+    62055,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData freightCar = IconData(
+    62056,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData fountain = IconData(
+    62057,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData footwearDecontamination = IconData(
+    62058,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData food = IconData(
+    62059,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData florist = IconData(
+    62060,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData fishingPier = IconData(
+    62061,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData fishLadder = IconData(
+    62062,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData fishCleaning = IconData(
+    62063,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData fireplace = IconData(
+    62064,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData fireHydrantUnderground = IconData(
+    62065,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData fireHydrant = IconData(
+    62066,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData fighterJet = IconData(
+    62067,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData fieldHockey = IconData(
+    62068,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData ferry = IconData(
+    62069,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData fashionAccessories = IconData(
+    62070,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData embassy = IconData(
+    62071,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData elevator = IconData(
+    62072,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData electronic = IconData(
+    62073,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData egg = IconData(
+    62074,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData ear = IconData(
+    62075,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData drinkCup = IconData(
+    62076,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData dress = IconData(
+    62077,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData dragLift = IconData(
+    62078,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData donut = IconData(
+    62079,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData domedTower = IconData(
+    62080,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData dogShelter = IconData(
+    62081,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData diving = IconData(
+    62082,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData discGolfBasket = IconData(
+    62083,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData dice = IconData(
+    62084,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData diamond = IconData(
+    62085,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData detergentBottle = IconData(
+    62086,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData deskLamp = IconData(
+    62087,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData dagger = IconData(
+    62088,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData cyclistCrosswalk = IconData(
+    62089,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData cycleBarrier = IconData(
+    62090,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData cushion = IconData(
+    62091,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData curtains = IconData(
+    62092,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData crossingTramStriped = IconData(
+    62093,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData crossingTramSolid = IconData(
+    62094,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData crossingTramRoad = IconData(
+    62095,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData crossingRailStriped = IconData(
+    62096,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData crossingRailSolid = IconData(
+    62097,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData crossingRailRoad = IconData(
+    62098,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData crossingRailRail = IconData(
+    62099,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData crossingMarkingsZebraPaired = IconData(
+    62100,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData crossingMarkingsZebraDouble = IconData(
+    62101,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData crossingMarkingsZebraBicolour = IconData(
+    62102,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData crossingMarkingsZebra = IconData(
+    62103,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData crossingMarkingsSurface = IconData(
+    62104,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData crossingMarkingsLinesPaired = IconData(
+    62105,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData crossingMarkingsLines = IconData(
+    62106,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData crossingMarkingsLadderSkewed = IconData(
+    62107,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData crossingMarkingsLadderPaired = IconData(
+    62108,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData crossingMarkingsLadder = IconData(
+    62109,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData crossingMarkingsDots = IconData(
+    62110,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData crossingMarkingsDashes = IconData(
+    62111,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData crossCountrySkiing = IconData(
+    62112,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData crane = IconData(
+    62113,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData courthouse = IconData(
+    62114,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData coralReef = IconData(
+    62115,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData coolingTowerRadiation = IconData(
+    62116,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData coolingTower = IconData(
+    62117,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData conveyor = IconData(
+    62118,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData compass = IconData(
+    62119,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData coffee = IconData(
+    62120,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData clothesHanger = IconData(
+    62121,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData cloth = IconData(
+    62122,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData clock = IconData(
+    62123,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData climbingWall = IconData(
+    62124,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData climbingFrame = IconData(
+    62125,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData climbing = IconData(
+    62126,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData cliffFallingRocks = IconData(
+    62127,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData cleaver = IconData(
+    62128,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData chocolate = IconData(
+    62129,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData chimney = IconData(
+    62130,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData chicaneArrow = IconData(
+    62131,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData chefsKnife = IconData(
+    62132,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData checkpoint = IconData(
+    62133,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData chairlift = IconData(
+    62134,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData cattleGrid = IconData(
+    62135,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData catering = IconData(
+    62136,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData casino = IconData(
+    62137,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData carport = IconData(
+    62138,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData carWash = IconData(
+    62139,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData carStructure = IconData(
+    62140,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData carPool = IconData(
+    62141,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData carParked = IconData(
+    62142,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData carDealer = IconData(
+    62143,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData capitol = IconData(
+    62144,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData capeLandform = IconData(
+    62145,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData canoe = IconData(
+    62146,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData can = IconData(
+    62147,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData campfire = IconData(
+    62148,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData camperTrailerDump = IconData(
+    62149,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData camperTrailer = IconData(
+    62150,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData cairn = IconData(
+    62151,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData cableShutoff = IconData(
+    62152,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData cableMeter = IconData(
+    62153,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData cableManhole = IconData(
+    62154,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData cableDevice = IconData(
+    62155,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData cable = IconData(
+    62156,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData cabin = IconData(
+    62157,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData busGuided = IconData(
+    62158,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData bus = IconData(
+    62159,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData buoy = IconData(
+    62160,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData bunkerSilo = IconData(
+    62161,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData bunker = IconData(
+    62162,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData bunkBeds = IconData(
+    62163,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData bulletinBoard = IconData(
+    62164,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData bulldozer = IconData(
+    62165,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData bulb3 = IconData(
+    62166,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData bulb2 = IconData(
+    62167,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData bulb = IconData(
+    62168,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData bufferStop = IconData(
+    62169,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData bubbleTea = IconData(
+    62170,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData briefcaseShield = IconData(
+    62171,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData briefcaseInfo = IconData(
+    62172,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData briefcaseCross = IconData(
+    62173,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData briefcaseBolt = IconData(
+    62174,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData briefcaseAsterisk = IconData(
+    62175,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData briefcase = IconData(
+    62176,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData bridge = IconData(
+    62177,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData brickTrowel = IconData(
+    62178,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData bread = IconData(
+    62179,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData bowlingAlt1 = IconData(
+    62180,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData bowling = IconData(
+    62181,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData bowAndArrow = IconData(
+    62182,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData boulder3 = IconData(
+    62183,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData boulder2 = IconData(
+    62184,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData boulder1 = IconData(
+    62185,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData bottles = IconData(
+    62186,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData bookStore = IconData(
+    62187,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData bollardRow = IconData(
+    62188,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData bollard = IconData(
+    62189,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData boating = IconData(
+    62190,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData boatTour = IconData(
+    62191,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData boatRepair = IconData(
+    62192,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData boatRental = IconData(
+    62193,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData boatRamp = IconData(
+    62194,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData boatFloating = IconData(
+    62195,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData boatDryDock = IconData(
+    62196,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData boat = IconData(
+    62197,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData boardTrolleybus = IconData(
+    62198,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData boardTransit = IconData(
+    62199,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData boardTram = IconData(
+    62200,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData boardTrainSteam = IconData(
+    62201,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData boardTrainKids = IconData(
+    62202,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData boardTrainDiesel = IconData(
+    62203,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData boardTrainBullet = IconData(
+    62204,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData boardTrain = IconData(
+    62205,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData boardSubway = IconData(
+    62206,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData boardSchoolBus = IconData(
+    62207,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData boardMonorail = IconData(
+    62208,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData boardLightRail = IconData(
+    62209,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData boardHeavyRail = IconData(
+    62210,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData boardHangingRail = IconData(
+    62211,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData boardGondolaLift = IconData(
+    62212,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData boardFerry = IconData(
+    62213,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData boardBus = IconData(
+    62214,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData blind = IconData(
+    62215,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData bleachers = IconData(
+    62216,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData binoculars = IconData(
+    62217,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData billboard = IconData(
+    62218,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData bikini = IconData(
+    62219,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData bicycleWash = IconData(
+    62220,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData bicycleStructure = IconData(
+    62221,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData bicycleShed = IconData(
+    62222,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData bicycleRepair = IconData(
+    62223,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData bicycleRental = IconData(
+    62224,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData bicycleParked = IconData(
+    62225,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData bicycleLocker = IconData(
+    62226,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData bicycleBox = IconData(
+    62227,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData benchmarkDisk = IconData(
+    62228,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData bench = IconData(
+    62229,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData beautySalon = IconData(
+    62230,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData beach = IconData(
+    62231,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData basketswing = IconData(
+    62232,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData barn = IconData(
+    62233,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData balloon = IconData(
+    62234,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData balanceBeam = IconData(
+    62235,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData atm2 = IconData(
+    62236,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData atm = IconData(
+    62237,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData asterisk = IconData(
+    62238,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData armyTent = IconData(
+    62239,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData archery = IconData(
+    62240,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData appTerminal = IconData(
+    62241,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData anvilAndHammer = IconData(
+    62242,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData anvil = IconData(
+    62243,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData antenna = IconData(
+    62244,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData anchorMedal = IconData(
+    62245,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData amusementPark = IconData(
+    62246,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData airport = IconData(
+    62247,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData aerialwayPole = IconData(
+    62248,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData aditProfile = IconData(
+    62249,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData activityPanel = IconData(
+    62250,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData accounting = IconData(
+    62251,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData accessibleSpace = IconData(
+    62252,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
+
+  static const IconData abseiling = IconData(
+    62253,
+    fontFamily: 'TemakiIconFont',
+    fontPackage: 'temaki_flutter',
+  );
 }
